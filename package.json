@@ -1,0 +1,6 @@
+{
+  "name": "eslint-config-sasaplus1",
+  "version": "0.0.0",
+  "main": ".eslintrc",
+  "private": true
+}
