@@ -5,7 +5,7 @@ my eslint config
 ## Installation
 
 ```sh
-$ npm install eslint babel-eslint git://github.com/sasaplus1-prototype/eslint-config-sasaplus1.git
+$ npm install --save-dev eslint babel-eslint git://github.com/sasaplus1-prototype/eslint-config-sasaplus1.git
 ```
 
 ## Usage
