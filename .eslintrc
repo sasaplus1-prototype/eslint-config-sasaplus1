@@ -161,7 +161,7 @@ rules:
   space-before-function-paren:
     - 2
     - anonymous: never
-      named: always
+      named: never
 
   # http://eslint.org/docs/rules/space-infix-ops
   space-infix-ops:
