@@ -10,6 +10,8 @@ $ npm install --save-dev eslint babel-eslint git://github.com/sasaplus1-prototyp
 
 ## Usage
 
+append the following for your `.eslintrc`:
+
 ```yaml
 extends:
   - sasaplus1
