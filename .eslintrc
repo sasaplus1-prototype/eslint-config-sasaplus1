@@ -157,10 +157,11 @@ rules:
     - 2
     - always
 
-  # http://eslint.org/docs/rules/space-after-keywords
-  space-after-keywords:
+  # http://eslint.org/docs/rules/keyword-spacing
+  keyword-spacing:
     - 2
-    - always
+    - before: true
+      after: true
 
   # http://eslint.org/docs/rules/space-before-function-paren
   space-before-function-paren:
@@ -172,10 +173,6 @@ rules:
   space-infix-ops:
     - 2
     - int32Hint: false
-
-  # http://eslint.org/docs/rules/space-return-throw-case
-  space-return-throw-case:
-    - 2
 
   # http://eslint.org/docs/rules/space-unary-ops
   space-unary-ops:
