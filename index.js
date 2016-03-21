@@ -3,5 +3,5 @@ var fs = require('fs'),
     yaml = require('js-yaml');
 
 module.exports = yaml.safeLoad(
-  fs.readFileSync(path.join(__dirname, '.eslintrc'), { encoding: 'utf8' })
+  fs.readFileSync(path.join(__dirname, '.eslintrc.yaml'), { encoding: 'utf8' })
 );
